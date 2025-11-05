@@ -20,7 +20,7 @@ func _ready() -> void:
 func show_text() -> void:
 	var current_item :=dialogue_items[current_item_index]
 	rich_text_label.text = current_item
-	rich_text_label.visable_ratio = 0.0
+	rich_text_label.visible_ratio = 0.0
 	
 	var tween := create_tween()
 	var text_appearing_duration:= 1.2
