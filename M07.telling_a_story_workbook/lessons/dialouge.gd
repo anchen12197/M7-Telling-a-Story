@@ -24,12 +24,12 @@ var dialogue_items: Array[Dictionary] = [
 	},
 	{
 		"expression": expressions["happy"],
-		"text": "Nice to meet you!",
+		"text": "[wave]Nice to meet you![/wave]",
 		"character": bodies["sophia"],
 	},
 	{
 		"expression": expressions["regular"],
-		"text": "How are you doing today?",
+		"text": "How are you doing [b]today?[/b]",
 		"character": bodies["sophia"],
 	},
 	{
